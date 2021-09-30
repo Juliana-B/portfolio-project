@@ -1,0 +1,12 @@
+
+.header-wrapper .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 39.9375rem;
+    background: #14279B;
+    opacity: .1;
+}

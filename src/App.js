@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar'
+import Header from './components/Header'
 
 const App = () => {
   return (
     <div className='wrapper'>
-     <h1>Olabisi</h1>
+      <Navbar />
+      <Header/>
     </div>
   )
 }
