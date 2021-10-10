@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars} from "@fortawesome/free-solid-svg-icons"
+import {Link} from 'react-router-dom'
 import "./Navbar.css";
 
 
@@ -15,8 +16,8 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
-                                <a className="nav-link" href={React}>Home</a>
+                            <li className="nav-item"> 
+                                <Link to = '/' className="nav-link" >Home</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href={React}>About me</a>

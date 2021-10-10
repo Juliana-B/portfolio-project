@@ -1,0 +1,15 @@
+.head {
+    color: #14279B;
+}
+
+.sect .head {
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+
+
+@media (max-width: 768px) { 
+    .submit {
+        display: block;
+    }
+ }

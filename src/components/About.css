@@ -1,0 +1,60 @@
+.img-about {
+    width: 100%;
+    z-index: 0;
+    position: relative;
+}
+
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-about .img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.about-heading h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+}
+
+ul.about-info {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul.about-info li {
+    list-style: none;
+    margin-bottom: 0.625rem;
+}
+
+.btn {
+    background: #14279B;
+    border: 1px solid #14279B;
+    border-radius: 3.125rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #14279B;
+} 
+
+
+@media (max-width: 768px) { 
+    .img {
+        display: none;
+    }
+
+    .about-heading , .wrap{
+       margin: auto;
+       text-align: center;
+    }
+ }
