@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 
 const ContactUs = () => {
     return (
-        <div className='container mt-5'>
+        <div className='container mt-5' id='contact'>
             <hr />
                 <div className='row d-flex no-gutters'>
                     

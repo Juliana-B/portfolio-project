@@ -4,7 +4,7 @@ import Mypic from '../images/mypic.jpg'
 
 const About = () => {
     return (
-        <section>
+        <section id='about'>
             <div className='container'>
                 <div className='row d-flex no-gutters mt-3'>
                     <div className='d-none d-md-block col-md-6 d-flex'>
@@ -22,28 +22,33 @@ const About = () => {
                                 <p className='mb-1 mt-0'>Lorem ipsum dolor sit amet.</p>
                                 <ul className='about-info mt-4 px-md-0 px-2'>
                                     <li>
-                                        <span>Name: </span>
-                                        <span> <b>Olabisi Aboge</b></span>
+                                        <span className='big'>Name: </span>
+                                        <span className='small'> <b>Olabisi Aboge</b></span>
                                     </li>
                                     <li>
-                                        <span>Address: </span>
-                                        <span><b>Alapere, Lagos</b> </span>
+                                        <span className='big'>Address: </span>
+                                        <span className='small'><b>Alapere, Lagos</b> </span>
                                     </li>
                                     <li>
-                                        <span>Email: </span>
-                                        <span><b>busolaboge@gmail.com</b> </span>
+                                        <span className='big'>Email: </span>
+                                        <span className='small'><b>busolaboge@gmail.com</b> </span>
                                     </li>
                                     <li>
-                                        <span>Phone: </span>
-                                        <span> <b>+23480514671</b></span>
+                                        <span className='big'>Phone: </span>
+                                        <span className='small'> <b>+23480514671</b></span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div className='wrap mt-md-3 mb-3'>
-                            <p className='mb-1'>
-                                <a href={React} className='btn py-3 px-3'>Download CV</a>
-                            </p>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <p className='mb-1 align-items-center'>
+                                        <a href={React} className='btn py-3 px-3'>Download CV</a>
+                                    </p>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

@@ -9,7 +9,7 @@ import Image6 from '../images/pic3.jpg'
 
 const Services = () => {
     return (
-        <section className='sect-service mt-5'>
+        <section className='sect-service mt-5' id='services'>
             
             <div className="container px-md-5 my-auto">
                 <div className="row justify-content-center py-5">

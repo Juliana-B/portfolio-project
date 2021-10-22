@@ -33,6 +33,16 @@ ul.about-info li {
     margin-bottom: 0.625rem;
 }
 
+.big {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.small {
+    font-size: 1.5rem;
+    color: #14279B;
+}
+
 .btn {
     background: #14279B;
     border: 1px solid #14279B;

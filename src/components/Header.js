@@ -4,7 +4,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <section className='header-wrapper'>
+        <section className='header-wrapper' id='/'>
             <div className='overlay'></div>
             <div className="container">
                 <div className="row no-gutters slider-text justify-content-center alighn-items-center" style={{height: "33rem"}}>
